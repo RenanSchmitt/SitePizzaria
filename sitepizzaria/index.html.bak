@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="_css/estilo.css"/>
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Akronim' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+		<script type="text/javascript" src="engine0/wowslider.js"></script>
+		<script type="text/javascript" src="engine0/script.js"></script>
+		<!-- End WOWSlider.com BODY section -->
+	<script src="_js/prototype.js"></script>
+
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<!--script type="text/javascript" src="engine1/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+	<body>
+	<!-- ESTRUTURA HTML PARA PC'S -->
+	<div id="invisivel">
+		<a href="#">
+			<div id="fechar">fechar</div>
+		</a>
+		<div id="conteudoInvisivel">
+
+		</div>
+
+	</div>
+
+
+
+	<div id="geralPc">
+			<header id="cabecalhoPc">
+				<img src="_img/banner.png" id="logoPc">
+
+				<nav id="menuPc">
+					<ul id="listaPc">
+						<a href="" onclick="new Ajax.Updater('conteudoInvisivel','#carrosel')" >HOME</a>
+						<a href="#invisivel" onclick="new Ajax.Updater('conteudoInvisivel','cardapio.html')" >CARDÁPIO</a>
+						<a href="#invisivel" onclick="new Ajax.Updater('conteudoInvisivel','delivery.html')" >DELIVERY</a>
+						<a href="#invisivel" onclick="new Ajax.Updater('conteudoInvisivel','historia.html')" >SOBRE-NÓS</a>
+					</ul>
+				</nav>
+			</header>
+
+
+
+		<section id="conteudoPc">
+			<div id="carroselPc">
+				<div id="wowslider-container0">
+					<div class="ws_images">
+						<ul>
+							<li><a href="#cardapio"><img src="data0/images/4b7d08_25661c7cb90c4a2a95f28b05c7fe11fb.jpg" alt="Pizza Calabresa" title="Promoção: Pizza Familia + Refri 2L por apenas R$ 50,00" id="wows0_0"/></a></li>
+							<li><a href="#cardapio"><img src="data0/images/foto110.jpg" alt="Pizza Peperoni" title="Promoção: Pizza Grande + Refri 2L por apenas R$ 45,00" id="wows0_1"/></a></li>
+							<li><a href="#cardapio"><img src="data0/images/pizzahdwallpapers3_3_1.jpg" alt="Pizza Portuguesa" title="Promoção: Pizza Média + Refri 2L por apenas R$ 35,00" id="wows0_2"/></a></li>
+							<li><a href="#cardapio"><img src="data0/images/pizzahdwallpapers3_3.jpg" alt="Pizza Mista" title="Promoção: Pizza Pequena + Refri 2L por apenas R$ 25,00" id="wows0_3"/></a></li>
+						</ul>
+					</div>
+					<div class="ws_bullets">
+						<div>
+							<a href="#" title="Pizza Calabresa"><span><img src="data0/tooltips/4b7d08_25661c7cb90c4a2a95f28b05c7fe11fb.jpg" alt="Pizza Calabresa"/>1</span></a>
+							<a href="#" title="Pizza Peperoni"><span><img src="data0/tooltips/foto110.jpg" alt="Pizza Peperoni"/>2</span></a>
+							<a href="#" title="Pizza Portuguesa"><span><img src="data0/tooltips/pizzahdwallpapers3_3_1.jpg" alt="Pizza Portuguesa"/>3</span></a>
+							<a href="#" title="Pizza Mista"><span><img src="data0/tooltips/pizzahdwallpapers3_3.jpg" alt="Pizza Mista"/>4</span></a>
+						</div>
+					</div>
+					<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+					<div class="ws_shadow"></div>
+				</div>
+
+				
+			</div>
+			</section>
+
+
+
+		<article id="propagandaPc">
+				<h1>ATENDIMENTO</h1>
+				<p>Terça a domingo
+				das 18:30 às 23h
+				</p>
+				<h1>Pagamentos</h1>
+				<figure id="bandeiras">
+					<img src="_img/bandeiras.png">
+				</figure>
+
+				<h1>Delivery das 16:00 ás 24:00</h1>
+				<figure id="motoboy">
+					<img id="moto" src="_img/moto.png"/>
+				</figure>
+				<h2>Fone: (51)0000-0000</h2>
+			</article>
+			<footer id="rodapePc">
+				<p><small><b>Dom Pizzaiolo. Copyright 2016-2020 by Renan Schmitt</b></small></p>
+			</footer>
+		</div>
+		<!-- FIM DA ESTRUTURA HTML PARA PC'S -->
+		
+		
+		
+		
+		<!-- ESTRUTURA HTML PARA TABLET'S -->
+		<div id="geralTablet">
+			<header id="cabecalhoTablet">
+				<img src="_img/banner.png" id="logoTablet">
+
+			</header>
+			<section id="conteudo">
+				<nav id="menuTablet">
+					<ul id="listaTablet">
+						<li><a href="" onclick="new Ajax.Updater('conteudoInvisivel','#carroselTablet')" >HOME</a></li>
+						<li><a href="#conteudoTablet" onclick="new Ajax.Updater('conteudoTablet','cardapio.html')" >CARDÁPIO</a></li>
+						<li><a href="#conteudoTablet" onclick="new Ajax.Updater('conteudoTablet','delivery.html')" >DELIVERY</a></li>
+						<li><a href="#conteudoTablet" onclick="new Ajax.Updater('conteudoTablet','historia.html')" >SOBRE-NÓS</a></li>
+					</ul>
+				</nav>
+				<section id="conteudoTablet">
+				<div id="carroselTablet">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/4b7d08_25661c7cb90c4a2a95f28b05c7fe11fb.jpg" alt="Pizza Familia + Refri 2L por apenas R$ 50,00" title="Pizza Familia + Refri 2L por apenas R$ 50,00" id="wows1_0"/></li>
+		<li><img src="data1/images/foto110.jpg" alt="Pizza Grande + Refri 2L por apenas R$ 45,00" title="Pizza Grande + Refri 2L por apenas R$ 45,00" id="wows1_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/pizzahdwallpapers3_3.jpg" alt="wowslider.com" title="Pizza Média + Refri 2L por apenas R$35,00" id="wows1_2"/></a></li>
+		<li><img src="data1/images/pizzahdwallpapers3_3_1.jpg" alt="Pizza Pequena + Refri 2L por apenas R$ 25,00" title="Pizza Pequena + Refri 2L por apenas R$ 25,00" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Pizza Familia + Refri 2L por apenas R$ 50,00"><span><img src="data1/tooltips/4b7d08_25661c7cb90c4a2a95f28b05c7fe11fb.jpg" alt="Pizza Familia + Refri 2L por apenas R$ 50,00"/>1</span></a>
+		<a href="#" title="Pizza Grande + Refri 2L por apenas R$ 45,00"><span><img src="data1/tooltips/foto110.jpg" alt="Pizza Grande + Refri 2L por apenas R$ 45,00"/>2</span></a>
+		<a href="#" title="Pizza Média + Refri 2L por apenas R$35,00"><span><img src="data1/tooltips/pizzahdwallpapers3_3.jpg" alt="Pizza Média + Refri 2L por apenas R$35,00"/>3</span></a>
+		<a href="#" title="Pizza Pequena + Refri 2L por apenas R$ 25,00"><span><img src="data1/tooltips/pizzahdwallpapers3_3_1.jpg" alt="Pizza Pequena + Refri 2L por apenas R$ 25,00"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+						<br>
+						<h1>ATENDIMENTO</h1>
+						<p>Terça a domingo
+							das 18:30 às 23h
+						</p>
+						<h1>Pagamentos</h1>
+						<figure id="bandeiras">
+							<img src="_img/bandeiras.png">
+						</figure>
+
+						<h1>Delivery das 16:00 ás 24:00</h1>
+						<figure id="motoboy">
+							<img id="moto" src="_img/moto.png"/>
+						</figure>
+						<h2>Fone: (51)0000-0000</h2>
+
+					</div>
+						<script type="text/javascript" src="engine0/wowslider.js"></script>
+						<script type="text/javascript" src="engine0/script.js"></script>
+						<!-- End WOWSlider.com BODY section -->
+				</section>
+			</section>
+			<footer id="rodapeTablet">
+				<p><small><b>Dom Pizzaiolo. Copyright 2016-2020 by Renan Schmitt</b></small></p>
+			</footer>
+		</div>
+		<!-- FIM DA ESTRUTURA HTML PARA TABLET'S -->
+		
+		
+		
+		<!-- ESTRUTURA HTML PARA CELULARES -->
+		<div id="geralCelular">
+			<header id="cabecalhoCelular">
+				<img src="_img/banner.png" id="logoCelular">
+
+				<nav id="menuCelular">
+					<ul id="listaCelular">
+						<a href="" onclick="new Ajax.Updater('conteudoInvisivel','#carroselCelular')" >HOME</a>
+						<a href="#conteudoCelular" onclick="new Ajax.Updater('conteudoCelular','cardapio.html')" >CARDÁPIO</a>
+						<a href="#conteudoCelular" onclick="new Ajax.Updater('conteudoCelular','delivery.html')" >DELIVERY</a>
+						<a href="#conteudoCelular" onclick="new Ajax.Updater('conteudoCelular','historia.html')" >SOBRE-NÓS</a>
+					</ul>
+				</nav>
+			</header>
+			<section id="conteudoCelular">
+
+				<div id="carroselCelular">
+
+
+				</div>
+				<script type="text/javascript" src="engine0/wowslider.js"></script>
+				<script type="text/javascript" src="engine0/script.js"></script>
+				<!-- End WOWSlider.com BODY section -->
+
+				<br>
+
+				<h1>ATENDIMENTO</h1>
+				<p>Terça a domingo
+					das 18:30 às 23h
+				</p>
+				<h1>Pagamentos</h1>
+				<figure id="bandeiras">
+					<img src="_img/bandeiras.png">
+				</figure>
+
+				<h1>Delivery das 16:00 ás 24:00</h1>
+				<figure id="motoboy">
+					<img id="moto" src="_img/moto.png"/>
+				</figure>
+				<h2>Fone: (51)0000-0000</h2>
+
+			</section>
+			<footer id="rodapeCelular">
+					<p><small><b>Dom Pizzaiolo. Copyright 2016-2020 by Renan Schmitt</b></small></p>
+			</footer>
+		</div>
+		<!-- FIM DA ESTRUTURA HTML PARA CELULARES -->
+	</body>
+</html>
